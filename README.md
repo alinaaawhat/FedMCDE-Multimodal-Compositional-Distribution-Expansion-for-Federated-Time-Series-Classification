@@ -1,10 +1,8 @@
 # DI2SDiff
 
-This repo is the official implementation of  "Diverse Intra- and Inter-Domain Activity Style Fusion for Cross-Person Generalization in Activity Recognition" accepted by [KDD 2024 research track.] ([Paper](https://arxiv.org/abs/2406.04609))
+This repo is the official implementation of "Diverse Intra- and Inter-Domain Activity Style Fusion for Cross-Person Generalization in Activity Recognition" accepted by KDD 2024 research track. ([Paper](https://arxiv.org/abs/2406.04609))
 
-
-
-# Datasets
+## Datasets
 
 We employ the identical preprocessing method as outlined in the work by [Qin et al DDLearn](https://github.com/microsoft/robustlearn/tree/main/ddlearn) on three publicly available HAR datasets, namely [DSADS](https://archive.ics.uci.edu/dataset/256/daily+and+sports+activities), [PAMAP2](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring), and [USC-HAD](https://sipi.usc.edu/had/). By running its data preprocess code involving deal, divide_domain, and raw_aug_loader, we can obtain the dataset with the specified target and remain rate. The data file should be put in the `data` folder, such as `data/uschad/uschad_crosssubject_rawaug_rate0.2_t0_seed1_scalernorm.pkl`. Here, we only use the preprocessed original data for training.
 
@@ -70,11 +68,10 @@ If you found this work useful for you, please consider citing it.
 ```
 @article{zhang2024diverse, 
   title={Diverse Intra-and Inter-Domain Activity Style Fusion for Cross-Person Generalization in Activity Recognition}, 
-  author={Zhang, Junru and Feng, Lang and Liu, Zhidan and Wu, Yuhan and He, Yang and Dong, Yabo and Xu, Duanqing}, 
+  author={Feng, Lang and Liu, Zhidan and Wu, Yuhan and He, Yang and Dong, Yabo and Xu, Duanqing}, 
   journal={arXiv preprint arXiv:2406.04609}, 
   year={2024}
 }
 ```
 # Contact
 
-junruzhang@zju.edu.cn
